@@ -1,0 +1,31 @@
+[
+  {
+  "id": 1008,
+  "name": "市场送货",
+  "icon": "&#xe6ce;",
+  "url":"",
+  "children": [
+    {
+      "id": 10081,
+      "name": "送货列表",
+      "icon": "",
+      "url":"./listView",
+      "parent": 1008
+    },
+    {
+      "id": 10082,
+      "name": "送货录入",
+      "icon": "",
+      "url":"./addView",
+      "parent": 1008
+    },
+    {
+      "id": 10083,
+      "name": "数据图表",
+      "icon": "",
+      "url":"./echarts",
+      "parent": 1008
+    }
+  ]
+}
+]

@@ -1,0 +1,11 @@
+config:
+  mail:
+    smtp: smtp.qq.com
+    userName: 2904037708@qq.com
+    authCode: pwmduujrwlvydcgb
+    mailTo: shijialiangbaby@163.com
+    mailHeadName: 来自传信官网咨询
+    mailHeadValue: 来自传信官网咨询
+    auth: true
+    protocol: smtp
+    personalName: 来自传信官网咨询

@@ -1,0 +1,33 @@
+server:
+  port: 8003
+spring:
+  freemarker:
+    cache: false
+    request-context-attribute: request
+  datasource:
+    url: jdbc:mysql://47.97.162.216:3306/market?useUnicode=true&characterEncoding=utf8&serverTimezone=PRC&useSSL=false&rewriteBatchedStatements=TRUE&autoReconnect=true&allowMultiQueries=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: yA^Nsn1v
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    dialect: org.hibernate.dialect.MySQL5Dialect
+    naming:
+         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  http:
+    encoding:
+      charset: UTF-8
+  banner:
+    charset: UTF-8
+logging:
+  level:
+    org.springframework.web: info
+    com.fsg.salary: info
+  path:
+  pattern:
+    console: "%d [%highlight(%level)] %c %L %msg%n"
+upload:
+  file:
+  savePath: D:/file/
